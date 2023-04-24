@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.1">
+  <object class="tk.Frame" id="frame1">
+    <property name="background">black</property>
+    <property name="borderwidth">0</property>
+    <property name="height">500</property>
+    <property name="highlightthickness">0</property>
+    <property name="width">800</property>
+    <layout manager="pack">
+      <property name="propagate">True</property>
+      <property name="side">top</property>
+    </layout>
+    <child>
+      <object class="tk.Frame" id="Main_frame">
+        <property name="background">white</property>
+        <property name="height">200</property>
+        <property name="width">800</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button2">
+        <property name="borderwidth">0</property>
+        <property name="command" type="command" cbtype="simple">open_sendmail_panel</property>
+        <property name="highlightthickness">0</property>
+        <property name="image">mail_dashboard (1).png</property>
+        <property name="text" translatable="yes">Send Mail</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.78</property>
+          <property name="rely">0.2</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label1">
+        <property name="background">white</property>
+        <property name="font">{Avro} 25 {bold italic}</property>
+        <property name="text" translatable="yes">DashBoard</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.02</property>
+          <property name="rely">0.03</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="delete_button_dash">
+        <property name="borderwidth">0</property>
+        <property name="command" type="command" cbtype="simple">open_delete_panel</property>
+        <property name="highlightthickness">0</property>
+        <property name="image">delete_dash.png</property>
+        <property name="text" translatable="yes">delete button</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.53</property>
+          <property name="rely">0.2</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="add_button_dash">
+        <property name="borderwidth">0</property>
+        <property name="command" type="command" cbtype="simple">open_add_panel</property>
+        <property name="highlightthickness">0</property>
+        <property name="image">add_dash.png</property>
+        <property name="text" translatable="yes">add details</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.03</property>
+          <property name="rely">0.2</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="update_button_dash">
+        <property name="borderwidth">0</property>
+        <property name="command" type="command" cbtype="simple">open_update_panel</property>
+        <property name="highlightthickness">0</property>
+        <property name="image">update_dash.png</property>
+        <property name="text" translatable="yes">update button</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.28</property>
+          <property name="rely">0.2</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label2">
+        <property name="background">black</property>
+        <property name="font">{avro} 14 {bold italic}</property>
+        <property name="foreground">White</property>
+        <property name="text" translatable="yes">Add Details</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.05</property>
+          <property name="rely">0.55</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label3">
+        <property name="background">black</property>
+        <property name="font">{avro} 14 {bold italic}</property>
+        <property name="foreground">White</property>
+        <property name="text" translatable="yes">Update Details</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.28</property>
+          <property name="rely">0.55</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label5">
+        <property name="background">black</property>
+        <property name="font">{avro} 14 {bold italic}</property>
+        <property name="foreground">White</property>
+        <property name="text" translatable="yes">Delete Details</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.53</property>
+          <property name="rely">0.55</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label6">
+        <property name="background">black</property>
+        <property name="font">{avro} 14 {bold italic}</property>
+        <property name="foreground">White</property>
+        <property name="text" translatable="yes">Send Mail</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.82</property>
+          <property name="rely">0.55</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label7">
+        <property name="background">black</property>
+        <property name="font">{avro} 12 {bold italic}</property>
+        <property name="foreground">White</property>
+        <property name="text" translatable="yes">Message Management System</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.64</property>
+          <property name="rely">0.93</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>

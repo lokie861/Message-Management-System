@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.1">
+  <object class="tk.Frame" id="frame1">
+    <property name="background">#f2dae5</property>
+    <property name="height">500</property>
+    <property name="width">800</property>
+    <layout manager="pack">
+      <property name="propagate">True</property>
+      <property name="side">top</property>
+    </layout>
+    <child>
+      <object class="tk.Frame" id="frame2">
+        <property name="background">#f04324</property>
+        <property name="height">500</property>
+        <property name="width">275</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+        <child>
+          <object class="tk.Label" id="label1">
+            <property name="image">last.png</property>
+            <property name="text" translatable="yes">label1</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.21</property>
+              <property name="rely">0.4</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="label2">
+            <property name="background">#f04324</property>
+            <property name="font">{Avero} 18 {bold italic}</property>
+            <property name="text" translatable="yes">ADD DETAILS </property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.17</property>
+              <property name="rely">0.1</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="back_button_add">
+        <property name="activebackground">white</property>
+        <property name="activeforeground">white</property>
+        <property name="background">#f2dae5</property>
+        <property name="borderwidth">0</property>
+        <property name="command" type="command" cbtype="simple">back</property>
+        <property name="disabledforeground">white</property>
+        <property name="foreground">white</property>
+        <property name="highlightbackground">white</property>
+        <property name="highlightcolor">white</property>
+        <property name="highlightthickness">0</property>
+        <property name="image">back.png</property>
+        <property name="text" translatable="yes">button4</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.39</property>
+          <property name="rely">0.02</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="erp_label_add">
+        <property name="background">#f2dae5</property>
+        <property name="font">{revo} 12 {italic}</property>
+        <property name="text" translatable="yes">ERP  </property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.4</property>
+          <property name="rely">0.25</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="erp_entry_add">
+        <property name="font">{aervo} 12 {italic}</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.55</property>
+          <property name="rely">0.25</property>
+          <property name="width">250</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="name_label_add">
+        <property name="background">#f2dae5</property>
+        <property name="font">{revo} 12 {italic}</property>
+        <property name="text" translatable="yes">Name </property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.4</property>
+          <property name="rely">0.35</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="fathername_entry_add">
+        <property name="font">{aervo} 12 {italic}</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.55</property>
+          <property name="rely">0.75</property>
+          <property name="width">250</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="name_entry_add">
+        <property name="font">{aervo} 12 {italic}</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.55</property>
+          <property name="rely">0.35</property>
+          <property name="width">250</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="mail_id_add">
+        <property name="background">#f2dae5</property>
+        <property name="font">{revo} 12 {italic}</property>
+        <property name="text" translatable="yes">Mail ID </property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.4</property>
+          <property name="rely">0.45</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Label" id="label4">
+        <property name="background">#f2dae5</property>
+        <property name="font">{aevo} 12 {italic}</property>
+        <property name="text" translatable="yes">Father Name</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.4</property>
+          <property name="rely">0.75</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="mail_entry_add">
+        <property name="font">{aervo} 12 {italic}</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.55</property>
+          <property name="rely">0.45</property>
+          <property name="width">250</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="add_button_add">
+        <property name="borderwidth">0</property>
+        <property name="command" type="command" cbtype="simple">add_details</property>
+        <property name="disabledforeground">#f2dae5</property>
+        <property name="highlightthickness">0</property>
+        <property name="image">add.png</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.75</property>
+          <property name="rely">0.85</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="year_label_add">
+        <property name="background">#f2dae5</property>
+        <property name="font">{revo} 12 {italic}</property>
+        <property name="text" translatable="yes">Year</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.4</property>
+          <property name="rely">0.55</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="depart_label_add">
+        <property name="background">#f2dae5</property>
+        <property name="font">{revo} 12 {italic}</property>
+        <property name="text" translatable="yes">Department</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.4</property>
+          <property name="rely">0.65</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="year_entry_add">
+        <property name="font">{aervo} 12 {italic}</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.55</property>
+          <property name="rely">0.55</property>
+          <property name="width">250</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="depart_entry_add">
+        <property name="font">{aervo} 12 {italic}</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.55</property>
+          <property name="rely">0.65</property>
+          <property name="width">250</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>

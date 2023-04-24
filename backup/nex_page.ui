@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.1">
+  <object class="ttk.Notebook" id="notebook10">
+    <property name="height">500</property>
+    <property name="width">800</property>
+    <layout manager="pack">
+      <property name="propagate">True</property>
+      <property name="side">top</property>
+    </layout>
+    <child>
+      <object class="ttk.Notebook.Tab" id="tab7">
+        <property name="text" translatable="yes">    Add    </property>
+        <child>
+          <object class="tk.Frame" id="frame4">
+            <property name="background">#1a543e</property>
+            <property name="height">200</property>
+            <property name="width">200</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">top</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Notebook.Tab" id="tab8">
+        <property name="text" translatable="yes">  Update  </property>
+        <child>
+          <object class="tk.Frame" id="frame5">
+            <property name="background">#1a543e</property>
+            <property name="height">200</property>
+            <property name="width">200</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">top</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Notebook.Tab" id="tab9">
+        <property name="text" translatable="yes">   Delete   </property>
+        <child>
+          <object class="tk.Frame" id="frame6">
+            <property name="background">#1a543e</property>
+            <property name="height">200</property>
+            <property name="width">200</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">top</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Notebook.Tab" id="tab10">
+        <property name="text" translatable="yes">    Send   </property>
+        <child>
+          <object class="tk.Frame" id="frame7">
+            <property name="background">#1a543e</property>
+            <property name="height">200</property>
+            <property name="width">200</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">top</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
