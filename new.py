@@ -12,7 +12,7 @@ cursur = connection.cursor()
 
 #smtp sending amil commands from and app Password
 from_mail='lokie2301@gmail.com'
-password='gcchfctpododhunv'
+password=''
 
 #smtp objects
 smtp_obj = smtplib.SMTP('smtp.gmail.com',587)
